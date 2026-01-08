@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #333;
+}
+::selection {
+  background: #3367d1; 
+  color: #ffffff;
+}
+.container {
+  max-width: 120rem;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
