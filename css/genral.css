@@ -39,3 +39,23 @@ a {
 ul {
   list-style: none;
 }
+li{
+  display: inline-block;
+}
+.text-upparcase{
+  text-transform: uppercase;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.blue{
+    color: #0585DE;
+}
+.row{
+    display: flex;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+}

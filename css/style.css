@@ -1,0 +1,75 @@
+/* *********** */
+/* HEADER SECTION */
+/* *********** */
+#header{
+    height: 35rem;
+    background: url(/images/header.png)no-repeat,url(/images/header-repeat.png);
+    background-position: center top;
+}
+.header-title {
+    padding-top: 4.2rem;
+    font-size: 4.8rem;
+    font-weight: 500;
+}
+.header-nav{
+    padding-top: 10rem;
+}
+.header-nav ul li a{
+    color: #ffff;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+}
+.header-nav ul li a:hover{
+    color: #27a7ff;
+}
+/* *********** */
+/* HOME SECTION */
+/* *********** */
+#home{
+    margin: 8rem 0rem;
+}
+.col-50{
+   width: 50%;
+   padding: 0 1rem;
+}
+.home-heading{
+    font-size: 5.8rem;
+    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.home-title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.home-pera {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+.home-pera a{
+   color:#428bca ;
+}
+.home-pera a:hover{
+   color:#2a6496 ;
+}
+.lorem {
+    float: right !important;
+    margin-top: 2.6rem;
+    padding: 1rem 2rem;
+    background: #616161;
+    background-image: linear-gradient(to bottom, #616161, #383838);
+    color: #ffff;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+.lorem:hover{
+    background: #3cb0fd;
+    color: #ffff;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
