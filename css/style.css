@@ -28,7 +28,7 @@
 /* HOME SECTION */
 /* *********** */
 #home{
-    margin: 8rem 0rem;
+    padding: 8rem 0rem;
 }
 .col-50{
    width: 50%;
@@ -72,4 +72,50 @@
     background: #3cb0fd;
     color: #ffff;
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+/* *********** */
+/* SUBSCRIBE SECTION */
+/* *********** */
+#subscribe{
+    padding: 8rem 0rem;
+}
+.sub-heading{
+    font-size: 6rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.sub-p{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.sub-form{
+    margin-top: 6rem;
+}
+.sub-input {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 55rem;
+    padding: 1rem 3rem;
+}
+.sub-btn {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    background-color: #27a7ff;
+    color: #ffffff;
+    width: 100%;
+    max-width: 40rem;
+    padding: 1.4rem 2rem;
+    transition: all 0.3s;
+}
+.sub-btn:hover {
+    background-color: #616161;
 }
