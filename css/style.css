@@ -119,3 +119,85 @@
 .sub-btn:hover {
     background-color: #616161;
 }
+/* *********** */
+/* ALBUMS SECTION */
+/* *********** */
+#albums{
+    padding: 8rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.albums-heading{
+    font-size: 6rem;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.album-img{
+    position: relative;
+    height: 30rem; 
+    padding: 0 2rem;
+    float: left;
+    width: 415px;
+}
+.albums-boxs {
+    margin-top: 5rem;
+}
+.album-box {
+    float: left;
+    width: 50%;
+    padding: 0 2rem;
+    margin-top: 5rem;
+}
+.album-img-1 {
+    position: absolute;
+    width: 10rem;
+    border-radius: 50%;
+    left: 115px;
+    top: 100px;
+    z-index: 200;
+    transition: all 0.3s;
+}
+.album-box:hover .album-img-1{
+    width: 16rem;
+    left: 85px;
+    top: 70px;
+}
+.album-img-bg{
+   position: absolute;
+    top: 6px;
+    left: 21px;
+    z-index: -100;
+}
+.album-circle {
+    position: absolute;
+    width: 40rem;
+    height: auto;
+    top: 0rem;
+    left: 1.4rem;
+}
+.album-description{
+    float: left;
+    width: 10rem;
+}
+.de-text{
+    font-size: 1.2rem;
+}
+.description-1{
+    margin-top: .6rem;
+}
+.description-2{
+    margin-top: 7rem;
+}
+.description-3{
+    margin-top: 14rem;
+}
+.album-box:hover .album-description{
+    color: #27a7ff;
+}
+.album-circle{
+    filter: grayscale(100%);  /* gray by default */
+    transition: filter 0.3s ease, drop-shadow 0.3s ease;
+}
+.album-box:hover .album-circle  {
+  filter: grayscale(0%) drop-shadow(0 0 0 #0088ff);
+}
