@@ -201,3 +201,26 @@
 .album-box:hover .album-circle  {
   filter: grayscale(0%) drop-shadow(0 0 0 #0088ff);
 }
+/* *********** */
+/* ABOUT SECTION */
+/* *********** */
+.about{
+    padding: 8rem 0rem; 
+}
+.img-container{
+    position: relative;
+    max-width: 56rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.about-img{
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+}
+.about-p{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
