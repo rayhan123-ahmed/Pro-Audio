@@ -224,3 +224,95 @@
     font-size: 1.5rem;
     font-weight: 300;
 }
+/* *********** */
+/* SERVICE SECTION */
+/* *********** */
+#service{
+    padding: 8rem 0;
+}
+.service-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+.service-article{
+    width: 33.33333333%;
+    padding: 0rem 1.5rem;
+}
+.center-block{
+    margin: 0 auto;
+}
+.service-h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.service-p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+/* *********** */
+/* CONTACT SECTION */
+/* *********** */
+#contact{
+    padding: 8rem 0;
+}
+.conatct-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+.contact-item{
+    width: 50%;
+    padding: 0rem 1.5rem;
+}
+.form-control {
+    width: 100%;
+    height: 3.6rem;
+    padding: 1.2rem 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: #555;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    outline: none;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#textArea{
+   min-height: 15rem;
+   width: 100%;
+}
+.form-control:focus{
+  border-color: #66afe9;
+}
+.contact-btn{
+    border: none;
+    float: right !important;
+}
+/* *********** */
+/* FOOTER SECTION */
+/* *********** */
+footer{
+    height: 27rem;
+    background: url(/images/footer.png);
+    background-size: 100% 27rem;
+    position: relative;
+    overflow: hidden;
+}
+.footer-container{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+.footer-p{
+    font-size: 1.4rem;
+}
+.footer-p a{
+    color: #0088ff;
+}
+.footer-p a:hover{
+    color: #27a7ff;
+}
