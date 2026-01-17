@@ -24,6 +24,49 @@
 .header-nav ul li a:hover{
     color: #27a7ff;
 }
+/* STICKY HEADER */
+#stickyHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background:#616161;
+  background-image: linear-gradient(to bottom, #616161, #383838);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: all 0.3s ease;
+}
+
+#stickyHeader.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+#stickyHeader nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: all 0.2s ;
+}
+#stickyHeader nav a:hover {
+  color: #27a7ff;
+}
+.sticky-h1 {
+    float: left;
+    color: #fff;
+    font-size: 2.6rem;
+    margin-top: 1.2rem;
+}
+.stciky-nav{
+    float: right;
+    padding: 2rem;
+}
 /* *********** */
 /* HOME SECTION */
 /* *********** */
