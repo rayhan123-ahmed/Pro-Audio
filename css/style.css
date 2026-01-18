@@ -30,7 +30,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 5rem;
+  height: 5.4rem;
   background:#616161;
   background-image: linear-gradient(to bottom, #616161, #383838);
   z-index: 999;
@@ -71,7 +71,7 @@
 /* HOME SECTION */
 /* *********** */
 #home{
-    padding: 8rem 0rem;
+    padding: 6rem 0rem;
 }
 .col-50{
    width: 50%;
@@ -120,7 +120,7 @@
 /* SUBSCRIBE SECTION */
 /* *********** */
 #subscribe{
-    padding: 8rem 0rem;
+    padding: 6rem 0rem;
 }
 .sub-heading{
     font-size: 6rem;
@@ -166,9 +166,7 @@
 /* ALBUMS SECTION */
 /* *********** */
 #albums{
-    padding: 8rem 0rem;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 6rem 0rem;
 }
 .albums-heading{
     font-size: 6rem;
@@ -184,6 +182,7 @@
 }
 .albums-boxs {
     margin-top: 5rem;
+    overflow: hidden;
 }
 .album-box {
     float: left;
@@ -248,7 +247,7 @@
 /* ABOUT SECTION */
 /* *********** */
 #about{
-    padding: 8rem 0rem; 
+    padding: 6rem 0rem; 
 }
 .img-container{
     position: relative;
@@ -271,7 +270,7 @@
 /* SERVICE SECTION */
 /* *********** */
 #service{
-    padding: 8rem 0;
+    padding: 6rem 0;
 }
 .service-box {
     display: flex;
@@ -300,7 +299,7 @@
 /* CONTACT SECTION */
 /* *********** */
 #contact{
-    padding: 8rem 0;
+    padding: 6rem 0;
 }
 .conatct-box{
     display: flex;
@@ -308,8 +307,10 @@
     margin-top: 5rem;
 }
 .contact-item{
-    width: 50%;
+    width: 100%;
+    flex: 0 0 auto;
     padding: 0rem 1.5rem;
+    margin-bottom: 2rem;
 }
 .form-control {
     width: 100%;
@@ -334,6 +335,7 @@
 .contact-btn{
     border: none;
     float: right !important;
+    padding: 1.4rem 4rem;
 }
 /* *********** */
 /* FOOTER SECTION */
